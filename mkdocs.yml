@@ -1,0 +1,34 @@
+site_name: PopRev Documentation
+site_description: Server-side documentation for all PopRev products. 
+repo_url: https://github.com/Pop-Rev
+nav:
+    - Overview: 'index.md'
+    - Artist Submission: 
+        - Overview: 'artist-submission/index.md'
+        - API: 'artist-submission/api.md'
+    - Project Review:
+        - Overview: 'project-review/index.md'
+    - Klout: 
+        - Overview: 'klout/index.md'
+    - Littics: 
+        - Overview: 'littics/index.md'
+theme:
+    name: material
+    palette:
+        primary: blue
+    font:
+        text: Tiro Devanagari Sanskrit
+    language: en  
+    features:
+        - navigation.tabs.sticky
+        - header.autohide
+extra:
+    generator: false
+    social:
+        - icon: fontawesome/brands/github 
+          link: https://twitter.com/squidfunk
+        - icon: fontawesome/brands/docker
+          link: https://twitter.com/squidfunk
+        - icon: fontawesome/brands/slack 
+          link: https://twitter.com/squidfunk
+        
